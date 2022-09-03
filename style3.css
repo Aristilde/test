@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2013/03/02/02/40/chair-89156__340.jpg") ;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    border: 3px;
+    color: rgb(4, 160, 48);
+    
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a{
+    border: 2.2px;
+    color: rgb(4, 160, 48);
+    border: rgb(4, 160, 48) 1.75px solid;
+    padding: 5px 3px;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a:hover{
+    background-color: rgb(4, 160, 48);
+    color: #fff;
+}

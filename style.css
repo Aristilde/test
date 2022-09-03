@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    color:white; 
+    line-height: 1.5;
+}
+#showcase{
+    background-image:url("https://media.istockphoto.com/id/1315141049/photo/innovative-technology-in-a-modern-hospital-operating-room-futuristic-medical-interface.webp?s=612x612&w=is&k=20&c=pQAA0pNKRvPMRGFQIRLN7rnlF1-6gdOgVo_1j4dL8DE=") ;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+}
+#showcase h1{
+    font-size:30px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(114, 245, 153);
+    border: rgb(114, 245, 153) 1.75px solid;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin-top: 10px;
+
+}
+
+.contain{
+    height: 30vh;
+    background-color: rgb(3, 68, 46);
+    padding:5rem 5rem;
+    border-radius: 3rem;
+}
+
+.text{
+    font-size: 1rem !important;
+    padding-bottom: 2rem;
+}
+
+
+#showcase .button:hover{
+    color: white;
+    border: white 1.75px solid;
+}
+
